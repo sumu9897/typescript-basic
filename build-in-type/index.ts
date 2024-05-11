@@ -14,4 +14,8 @@ isActivated = true;
 
 fullName = firstName.concat(lastName);
 
-console.log( `Your id: ${userId}, user name: ${lastName}, full name : ${fullName},account activated: ${isActivated} `)
+console.log( `Your id: ${userId}, user name: ${lastName}, full name : ${fullName},account activated: ${isActivated} `);
+
+console.log(fullName.split(" "));
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
