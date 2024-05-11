@@ -5,10 +5,13 @@ let userId : number;
 let firstName : string;
 let lastName : string;
 let isActivated : boolean;
+let fullName : string;
 
 userId = 101;
 firstName = "Mohammad";
 lastName = " Sumon";
 isActivated = true;
 
-console.log( `Your id: ${userId}, user name: ${firstName} ${lastName},account activated: ${isActivated} `)
+fullName = firstName.concat(lastName);
+
+console.log( `Your id: ${userId}, user name: ${lastName}, full name : ${fullName},account activated: ${isActivated} `)
