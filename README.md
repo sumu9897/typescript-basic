@@ -32,12 +32,20 @@
 
 ### 1.1 Introduction to Typescript
 
-What is TypeScript?
+#### What is TypeScript?
+
+
+TypeScript is a programming language that combines the dynamic nature of JavaScript with the power of static typing. In essence, it introduces types to JavaScript, hence the name "TypeScript".
 
 - In a simple words, Types + JavaScript = TypeScript
 - It is a superset of JS
 - developed and maintained by Microsoft
 - we can use typeof to check data type
+
+
+### Key Features:
+
+- <b>Superset of JavaScript:</b> TypeScript builds upon JavaScript, meaning any valid JavaScript code is also valid TypeScript code.
 
 Why TypeScript?
 
