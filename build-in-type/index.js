@@ -13,3 +13,7 @@ console.log("Your id: ".concat(userId, ", user name: ").concat(lastName, ", full
 console.log(fullName.split(" "));
 console.log(fullName.toUpperCase());
 console.log(fullName.toLowerCase());
+function display() {
+    console.log("Hi I am display");
+}
+display();

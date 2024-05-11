@@ -19,3 +19,9 @@ console.log( `Your id: ${userId}, user name: ${lastName}, full name : ${fullName
 console.log(fullName.split(" "));
 console.log(fullName.toUpperCase());
 console.log(fullName.toLowerCase());
+
+
+function display() {
+    console.log("Hi I am display")
+}
+display();
