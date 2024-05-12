@@ -10,3 +10,4 @@ enum UserRequest {
     DeleteData,
 
 }
+console.log(UserRequest);

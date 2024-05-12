@@ -7,3 +7,4 @@ var UserRequest;
     UserRequest[UserRequest["SaveData"] = 1] = "SaveData";
     UserRequest[UserRequest["DeleteData"] = 2] = "DeleteData";
 })(UserRequest || (UserRequest = {}));
+console.log(UserRequest);
