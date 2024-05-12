@@ -5,9 +5,28 @@
 //numeric
 
 enum UserRequest {
-    ReadData,
-    SaveData,
+    ReadData = 1,
+    SaveData = 3,
     DeleteData,
 
 }
 console.log(UserRequest);
+
+//string enu
+
+enum RequestType{
+
+    readData = "READ_DATA",
+    deleteData = "DELETE_DATA"
+}
+
+console.log(RequestType);
+
+enum RequestType2{
+
+    readData = "READ_DATA",
+    deleteData = "DELETE_DATA",
+    id = 101,
+}
+
+console.log(RequestType2);
