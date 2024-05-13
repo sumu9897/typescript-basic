@@ -8,5 +8,5 @@ user2 = { userName: "sumon", userId: 102 };
 users.push(user2);
 // console.log(users);
 for (var key in users) {
-    console.log(users[key]);
+    console.log(users[key]["userName"]);
 }
