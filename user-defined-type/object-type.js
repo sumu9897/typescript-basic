@@ -6,4 +6,7 @@ users.push(user1);
 var user2;
 user2 = { userName: "sumon", userId: 102 };
 users.push(user2);
-console.log(users);
+// console.log(users);
+for (var key in users) {
+    console.log(users[key]);
+}

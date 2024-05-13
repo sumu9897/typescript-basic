@@ -12,4 +12,8 @@ let user1: {userName:string, userId :number};
 let user2: {userName:string, userId :number}; 
 user2 = {userName: "sumon", userId :102};
 users.push(user2);
-console.log(users);
+// console.log(users);
+
+for (const key in users){
+    console.log(users[key]);
+}
