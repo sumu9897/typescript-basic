@@ -1,7 +1,8 @@
-let users : object[];
+type User = { userName : string; userId: number}
+
+let users : User[];
 users = [];
 
-type User = { userName : string; userId: number}
 
 let user1 : User;
 user1 = {userName: "mohammad", userId:101};
@@ -15,4 +16,13 @@ let user3 : User;
 user3 = {userName: "jibon", userId:103};
 users.push(user3);
 
-console.log(users);
+// console.log(users);
+
+type RequestType2 = "GET" | "POST";
+let getRequest: RequestType2;
+getRequest = "GET";
+
+function requestHandler(requestType: RequestType2){
+   console.log(requestType)
+}
+requestHandler(getRequest);

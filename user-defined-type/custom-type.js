@@ -9,4 +9,9 @@ users.push(user2);
 var user3;
 user3 = { userName: "jibon", userId: 103 };
 users.push(user3);
-console.log(users);
+var getRequest;
+getRequest = "GET";
+function requestHandler(requestType) {
+    console.log(requestType);
+}
+requestHandler(getRequest);
